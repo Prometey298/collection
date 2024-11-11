@@ -39,7 +39,7 @@ public class Main {
         Collection<String> fruits = new ArrayList<>(Arrays.asList("Banana", "Apple", "Cherry"));
         
         // Использование BubbleSorter2 для сортировки коллекции
-        BubbleSorter2.sort(fruits);
+        CollecSorter.sort(fruits);
         
         // Вывод отсортированной коллекции
         System.out.println(fruits);
